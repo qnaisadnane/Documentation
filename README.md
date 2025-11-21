@@ -24,9 +24,15 @@ exemple : const nom = document.getElementbyId('id');
 var x =3;
 var x = 6;
 
+if(true){
+ var a = 3
+}
+ console.log(a);
+(elle va s'afficher)
  * let pour déclarer un variable seulement dans les blocs
 
 if(true){
  let a = 3
 }
  console.log(a);
+ (elle ne va pas s'afficher)
